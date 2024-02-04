@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+.auto{
+    width: 100%;
+}
+img{
+    width: 250px;
+
+}
+ul{
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    list-style-type: none;
+    font-size: 100px;
+    margin:auto;
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+}
+.dark{
+    color: black;
+}
+.dark::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #000;
+}
+.white{
+    color: black;
+}
+.red{
+    font-size: 70px;
+    color: rgb(241, 13, 13);
+}
